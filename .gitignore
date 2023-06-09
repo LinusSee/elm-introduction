@@ -1,0 +1,7 @@
+# Elm generated sources and dependencies
+elm-stuff
+app.min.js
+
+
+# js dependencies
+node_modules
