@@ -5226,6 +5226,7 @@ var $author$project$Main$ChangePasswordConfirmation = function (a) {
 var $author$project$Main$ChangeUsername = function (a) {
 	return {$: 'ChangeUsername', a: a};
 };
+var $elm$html$Html$button = _VirtualDom_node('button');
 var $elm$json$Json$Encode$string = _Json_wrap;
 var $elm$html$Html$Attributes$stringProperty = F2(
 	function (key, string) {
@@ -5370,6 +5371,22 @@ var $author$project$Main$view = function (model) {
 							]),
 						_List_Nil),
 						$elm$html$Html$text(model.passwordConfirmation)
+					])),
+				A2(
+				$elm$html$Html$div,
+				_List_Nil,
+				_List_fromArray(
+					[
+						A2(
+						$elm$html$Html$button,
+						_List_fromArray(
+							[
+								$elm$html$Html$Attributes$type_('submit')
+							]),
+						_List_fromArray(
+							[
+								$elm$html$Html$text('Registrieren')
+							]))
 					]))
 			]));
 };

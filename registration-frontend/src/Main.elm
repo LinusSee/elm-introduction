@@ -1,7 +1,7 @@
 module Main exposing (..)
 
 import Browser
-import Html exposing (Html, div, input, label, text)
+import Html exposing (Html, button, div, input, label, text)
 import Html.Attributes exposing (..)
 import Html.Events exposing (onInput)
 
@@ -107,4 +107,6 @@ view model =
                 []
             , text model.passwordConfirmation
             ]
+        , div []
+            [ button [ type_ "submit" ] [ text "Registrieren" ] ]
         ]
